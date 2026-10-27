@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arch Devnix | Developer</title>
+  <meta name="description" content="Portfolio of Arch Devnix, a Python developer based in Canada.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#top" class="logo">Arch-Devnix</a>
+    <nav aria-label="Main">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" type="button" aria-label="Switch between light and dark theme">Theme</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+        <img class="avatar" src="images/avatar.jpg" alt="Arch Devix">
+      <p class="prompt"><span class="prompt-user">devnix@archlinux</span>:~$ <span id="typed">whoami</span></p>
+      <h1>Arch Devnix</h1>
+      <p class="lead">Hello there! I'm an intermediate Python dev and I'm learning web development.</p>
+      <p class="links">
+        <a href="https://github.com/arch-devnix">GitHub</a>
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <figure class="shot" data-missing="images/belgium.png">
+          <img src="images/belgium.png" alt="Screenshot of the Belgium Project landing page">
+        </figure>
+        <div class="project-main">
+          <h3>Belgium Project</h3>
+          <p>An arcade-style class presentation about Belgium, with animated slides, a canvas mini-game and a quiz.</p>
+        </div>
+        <div class="project-meta">
+          <p class="tech">HTML, CSS, JavaScript, GSAP</p>
+          <p class="links">
+            <a href="https://github.com/arch-devnix/belgiumproject">Code</a>
+            <a href="https://arch-devnix.github.io/belgiumproject">Live Site</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="project">
+        <figure class="shot" data-missing="images/ytdownpy.png">
+          <img src="images/ytdownpy.png" alt="Screenshot of the YTDownPy window">
+        </figure>
+        <div class="project-main">
+          <h3>YTDownPy</h3>
+          <p>I was tired of media downloading websites bombarding users with advertisements, so I built a Python YouTube downloader with query search and a multi-threaded GUI, made with developers in mind.</p>
+        </div>
+        <div class="project-meta">
+          <p class="tech">Python, yt-dlp, customtkinter</p>
+          <p class="links">
+            <a href="https://github.com/arch-devnix/YTDownPY">Code</a>
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>I'm a dev located in Canada, currently a student interested in computer science. I know Python, JavaScript and HTML/CSS. For hobbies, I like philosophy and chess. I'm really looking forward to improving as a developer!</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>You can find me on <a href="https://github.com/arch-devnix">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Arch Devnix</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
